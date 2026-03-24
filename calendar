@@ -1,0 +1,4 @@
+import calendar
+a=calendar.month(2025)
+print(a)
+
