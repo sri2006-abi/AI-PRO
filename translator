@@ -1,0 +1,9 @@
+from deep_translator import GoogleTranslator
+
+text = input("Enter any sentence: ")
+lang = input("Enter target language (e.g., ta, hi, fr): ")
+
+translated = GoogleTranslator(source='auto', target=lang).translate(text)
+
+print("Original:", text)
+print("Translated:", translated)
